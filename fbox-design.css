@@ -1,0 +1,279 @@
+body{
+  background-color: #efeff5;
+}
+
+.page{
+ background-color: white;
+ height:100%;
+ width: 1600px;
+ margin: auto;
+ box-sizing: border-box;
+position: relative;
+}
+
+h1{
+  margin-left: 35%;
+  font-family: 'Yaldevi', sans-serif;
+  padding-top: 50px;
+  font-size: 45px;
+}
+
+hr{ /*https://css-tricks.com/examples/hrs/*/
+  border: 0;
+   height: 0;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid rgb(217, 217, 217);
+   width: 1200px;
+}
+
+h2{
+  margin-left: 25px;
+  color: #b3b3b3;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+#twa{
+  color: #3366ff;
+}
+
+#fba{
+  color: blue;
+}
+
+
+.right-total{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.add1{
+  font-family: 'Urbanist', sans-serif;
+  color: grey;
+}
+
+.walmart{
+  position: sticky;
+}
+
+
+.common-chart{
+  display: flex;
+  flex-direction: row;
+}
+
+.common-chart > div {
+  width: 150px;
+  margin: 10px;
+  padding-left:10px;
+  text-align: center;
+  font-size: 15px;
+  color: #4d4dff;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+.custom-chart{
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-chart > div {
+  width: 100px;
+  margin: 5px;
+  font-size: 15px;
+  background-color: #efeff5;
+  font-size: 15px;
+  color: #4d4dff;
+  font-family: 'Yaldevi', sans-serif;
+  margin-left: 25px;
+  padding-left: 10px;
+}
+
+#filter{
+  margin-left: 25px;
+  font-family: 'Yaldevi', sans-serif;
+  font-size: 14px;
+}
+
+i{
+    margin-left: 25px;
+}
+#search{
+
+  width: 450px;
+}
+
+#of{
+  background-color: white;
+  color: black;
+  width: 30px;
+}
+
+.more{
+  display: flex;
+  flex-direction: row;
+}
+
+.more > div {
+  width: 200px;
+  margin: 10px;
+  padding-left:10px;
+  text-align: center;
+  font-size: 15px;
+  color: #4d4dff;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+#umore{
+  width: 100px;
+  font-family: 'Yaldevi', sans-serif;
+  background-color: #4d4dff;
+  color: white;
+  border-radius: 2px;
+  margin-left: 150px;
+}
+
+#umore:active{
+  background-color: grey;
+}
+
+.skip{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+
+.skip > div {
+  padding-left: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+.skipbutton{
+border: 0px;
+color: #4d4dff;
+}
+
+.skipbutton:active{
+  background-color: #4d4dff;
+  color: white;
+}
+
+.num{
+border-radius: 5px;
+border: 0px;
+width: 40px;
+}
+
+.num:active{
+  background-color: #4d4dff;
+  color: white;
+  color: white;
+}
+
+
+
+.all-time{
+  height: 230px;
+  width: 1200px;
+  background-color: #efeff5;
+  margin-left: 20px;
+  font-family: 'Yaldevi', sans-serif;
+   border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.first{
+  display: flex;
+  flex-direction: row;
+}
+
+.first > div{
+    text-align: center;
+}
+
+.at-img{
+  width: 170px;
+  height: 170px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.at-info{
+text-align: left;
+padding-left: 15px;
+}
+
+
+#genre-at1,#genre-at2{
+  width: 500px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.table-stats{
+  margin-left: 800px;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+#fts1{
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+#fts2{
+  padding-left: 90px;
+}
+
+#fts3{
+  padding-left: 100px;
+}
+
+
+.numbe{
+  margin-left: 90px;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.album-color{
+  color: #4d4dff;
+}
+
+#bottom-skip{
+  margin-left: 800px;
+}
+
+.below{
+  height: 200px;
+  width: 100% ;
+  background-color: black;
+  border-style: groove;
+}
+
+.smallinfo{
+  height: 180px;
+  width: 200px;
+  display: inline-block;
+  color: white;
+  padding-left: 40px;
+  margin-left: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.below-add{
+  margin-left: 650px;
+}
+
+.below-add2{
+  margin-left: 730px;
+}
+
+.badd{
+  width: 250px;
+  height: 300px;
+  position: sticky;
+  bottom: 0;
+}
